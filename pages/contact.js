@@ -217,28 +217,37 @@ function contact() {
                       src="/assets/images/tel.png"
                       width={50}
                       height={40}
-                      alt="080-42450017"
+                      alt="080-31021400"
                     />
                   </Col>
                   <Col>
-                    <p>080-42450017</p>
+                    <a
+                      href="tel:08031021400"
+                      className="text-decoration-none text-body"
+                    >
+                      080-31021400
+                    </a>
                   </Col>
                 </Row>
-                <Row>
+                <Row className="mt-2">
                   <Col sm={2} className="d-flex align-items-center">
                     <Image
                       src="/assets/images/phone.png"
                       width={42}
                       height={40}
-                      alt="080-42450017"
+                      alt="+919900592343"
                     />
                   </Col>
                   <Col>
-                    <p>+91-80 42450000</p>
-                    <p>+91 8660697659</p>
+                    <a
+                      href="tel:+919900592343"
+                      className="text-decoration-none text-body"
+                    >
+                      +91 9900592343
+                    </a>
                   </Col>
                 </Row>
-                <Row>
+                <Row className="mt-2">
                   <Col sm={2} className="d-flex align-items-center">
                     <Image
                       src="/assets/images/mail.png"
@@ -248,8 +257,12 @@ function contact() {
                     />
                   </Col>
                   <Col>
-                    <p>sales@charteredhousing.com</p>
-                    <p>info@charteredhousing.com</p>
+                    <a
+                      href="mailto:sales@charteredhousing.com"
+                      class="text-decoration-none text-body"
+                    >
+                      sales@charteredhousing.com
+                    </a>
                   </Col>
                 </Row>
               </Container>
